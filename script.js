@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
     } else if (operator === "÷") {
       currentInput = (num1 / num2).toString();
     } else if (operator === "%") {
-      currentInput = (num1 % num2).toString();
+      currentInput = (num1 / 100).toString();
     }
 
     operator = null;
